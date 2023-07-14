@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #000;
+  background-image: url('background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#hero {
+  background-color: #eee;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color:yellowgreen;
+}
+
+.container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.container ul li {
+  font-size: 18px;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.brand-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin: 10px;
+}
+
+#contact {
+  color: #fff;
+}
+
+#contact ul li {
+  font-size: 18px;
+}
+
+#contact ul li:first-child {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
